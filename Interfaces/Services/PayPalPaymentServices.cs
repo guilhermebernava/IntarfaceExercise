@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Interfaces.Services
 {
-    internal class PayPalPayment : IPayment
+    internal class PayPalPaymentServices : IPayment
     {
         public List<double> PaymentOnline(double value, int installament)
         {

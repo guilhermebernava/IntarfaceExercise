@@ -4,7 +4,7 @@ using Interfaces.Interfaces;
 
 namespace Interfaces.Services
 {
-    class Installments
+    class InstallmentsServices
     {
         public DateTime Date { get; set; }
         public double Value { get; set; }
@@ -12,7 +12,7 @@ namespace Interfaces.Services
 
         public IPayment _paymentService;
 
-        public Installments(DateTime date, double value, int installament, IPayment paymentService)
+        public InstallmentsServices(DateTime date, double value, int installament, IPayment paymentService)
         {
             Date = date;
             Value = value;
